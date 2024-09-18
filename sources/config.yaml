@@ -1,3 +1,10 @@
+sources:
+  - ParkinsansScratch.glyphs
+familyName: "Parkinsans"
+
+outputDir: ../fonts
+
+
 # https://www.yamllint.com/ to make sure that your configuration
 # file is correctly formatted.
 
@@ -5,27 +12,27 @@
 # all sources in the same family. These are expected to be in the
 # sources/ directory, so all paths should be relative to that
 # directory.
-sources:
-  - ParkinsansScratch.glyphs
-# You don't have to supply the family name, but builds are slightly
-# faster if you do.
-familyName: "Parkinsans Scratch"
+# sources:
+#   - ParkinsansScratch.glyphs
+# # You don't have to supply the family name, but builds are slightly
+# # faster if you do.
+# familyName: "Parkinsans Scratch"
 
-# Next you can supply alternative paths for where you want the
-# binaries to live. But we'd recommend you stick to the defaults
-# especially if you are planning to upload your font to Google Fonts.
+# # Next you can supply alternative paths for where you want the
+# # binaries to live. But we'd recommend you stick to the defaults
+# # especially if you are planning to upload your font to Google Fonts.
 
-outputDir: ../fonts
-vfDir: $outputDir/variable
-ttDir: $outputDir/ttf
-otDir: $outputDir/otf
-woffDir: $outputDir/webfonts
+# outputDir: ../fonts
+# vfDir: $outputDir/variable
+# ttDir: $outputDir/ttf
+# otDir: $outputDir/otf
+# woffDir: $outputDir/webfonts
 
-# The following entries, which are either "true" or "false"
-# determine which targets to build. We turn off OTFs for this demo.
+# # The following entries, which are either "true" or "false"
+# # determine which targets to build. We turn off OTFs for this demo.
 
 # buildVariable: true
-buildStatic: true
+# buildStatic: true
 # buildTTF: true
 # buildOTF: false
 # buildSmallCap: false
